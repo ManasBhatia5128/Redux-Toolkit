@@ -1,0 +1,6 @@
+Redux is an independent library of its own and react-redux library is used to bridge between react and redux
+Flux: designed by facebook
+Redux toolki is battry included library ie redux mein context api se bhi zyada setup/ configuration krni padti thi however redux toolkit is battry included ie pehle se hi kaafi configurations hui hoti hain
+
+useSelector: value select krni hai
+useDispatch: value dispatch krnhi hai
