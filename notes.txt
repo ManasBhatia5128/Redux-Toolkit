@@ -4,3 +4,6 @@ Redux toolki is battry included library ie redux mein context api se bhi zyada s
 
 useSelector: value select krni hai
 useDispatch: value dispatch krnhi hai
+
+Redux: javascript library
+React mein bhi redux use krte hain that's why 2 instatllations
