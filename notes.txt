@@ -1,9 +1,25 @@
 Redux is an independent library of its own and react-redux library is used to bridge between react and redux
 Flux: designed by facebook
+Redux: never mutate your state: that;s why redux toolkit introduced
+
+Redux-toolkit mein ek hi store hota hai: single source of truth
+configureStore: reducer: saare to
 Redux toolki is battry included library ie redux mein context api se bhi zyada setup/ configuration krni padti thi however redux toolkit is battry included ie pehle se hi kaafi configurations hui hoti hain
+
+initialState: default predefined state
+state: updated (prev) state value of the store
+action: action.payload ie input milta hai
+nanoid: library used for generating unique ids
+
+redux mein state ka direct access hai that's why hum directly value thorugh .push() function put kr paate hain unlike context API jisme hume spread operator ka kaafi use krna padta hai
+
+value bhejne ke liye dispatch: eg courier dispatch, we do it during add
+select: select krne ke liye selector, access callback mein milta hai
 
 useSelector: value select krni hai
 useDispatch: value dispatch krnhi hai
 
 Redux: javascript library
 React mein bhi redux use krte hain that's why 2 instatllations
+
+Many a times provider is wrapped in main.jsx instead of app.jsx
